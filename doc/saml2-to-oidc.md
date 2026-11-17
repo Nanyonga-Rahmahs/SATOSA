@@ -1,5 +1,5 @@
 # Proxy: SAML2 <-> OpenID Connect
-After following the [installation instructions](README.md#installation), the proxy must
+After following the [installation instructions](intro), the proxy must
 be configured with a SAML2 frontend and an OpenID Connect backend.
 
 ## Configuration
@@ -19,7 +19,7 @@ be configured with a SAML2 frontend and an OpenID Connect backend.
      ```
 
   1. Edit the necessary proxy configuration parameters, see the [SATOSA proxy
-     configuration](README.md#proxy_conf) section of the proxy configuration instructions
+     configuration](intro) section of the proxy configuration instructions
      for more information.
      To specify the necessary plugins make sure to include the following
      configuration parameter values:
@@ -36,7 +36,7 @@ be configured with a SAML2 frontend and an OpenID Connect backend.
      mv internal_attributes.yaml.example internal_attributes.yaml
      ```
 
-  1. Map the necessary attributes, see the [Attribute mapping configuration](README.md#attr_map)
+  1. Map the necessary attributes, see the [Attribute mapping configuration](intro)
      section of the proxy configuration instructions for more
      information.
 
@@ -48,11 +48,11 @@ be configured with a SAML2 frontend and an OpenID Connect backend.
      mv plugins/openid_backend.yaml.example plugins/openid_backend.yaml
      ```
 
-  1. Specify the necessary configuration parameters, see the [Plugins](README.md#plugins) section
+  1. Specify the necessary configuration parameters, see the [Plugins](plugins) section
      of the proxy configuration instructions for more information.
 
-1. Generate the SAML metadata, see the [SAML metadata](README.md#saml_metadata) section of the
+1. Generate the SAML metadata, see the [SAML metadata](proxy_data) section of the
    proxy configuration instructions for more information.
 
-1. Start the proxy application, see the [Running the proxy application](README.md#run) section of
+1. Start the proxy application, see the [Running the proxy application](running_proxy) section of
    the proxy configuration instructions for more information.

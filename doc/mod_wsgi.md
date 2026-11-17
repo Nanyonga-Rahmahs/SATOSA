@@ -154,7 +154,7 @@ LOGGING:
 ```
 
 Complete the SATOSA configuration as detailed in your `proxy_conf.yaml`
-file. See the [SATOSA configuration reference](./README.md) for details.
+file. See the [SATOSA configuration reference](README.md) for details.
 
 After SATOSA is configured restart the Apache server:
 
