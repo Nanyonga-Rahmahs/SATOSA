@@ -129,7 +129,6 @@ nitpicky = True
 
 suppress_warnings = ["myst.strikethrough"]
 
-locale_dirs = ["_locales"]
 
 templates_path = ["_templates"]
 """These directories contain documentation templates.
@@ -158,12 +157,7 @@ autodoc2_render_plugin = "myst"
 autodoc2_sort_names = True
 """When documenting the API, sort by name."""
 
-js_source_path = str((Path(__file__).parent / ".." / "src").absolute())
-"""Search these locations for JavaScript/TypeScript to document."""
 
-js_language = (
-    "typescript" if (Path("js_source_path") / "index.ts").exists() else "javascript"
-)
 """Switch between JSDoc- and TypeDoc-formatted document."""
 
 myst_enable_extensions = [

@@ -130,6 +130,5 @@ external_contributions
 :caption: Appendices
 
 apidocs/index
-bibliography
 credits
 ```

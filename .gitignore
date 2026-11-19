@@ -77,6 +77,7 @@ __pypackages__/
 *.egg
 *.pyc
 *.egg-info/
+*.egg-info
 build*/
 develop-eggs/
 dist*/
@@ -125,8 +126,8 @@ pip-delete-this-directory.txt
 celerybeat-schedule
 celerybeat.pid
 db.*
-docs/_build/
-docs/apidocs/
+doc/_build/
+doc/apidocs/
 instance/
 ipython_config.py
 local_settings.py

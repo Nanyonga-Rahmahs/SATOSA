@@ -46,7 +46,7 @@ Metadata from remote URL:
 
 For more detailed information on how you could customize the SAML entities,
 see the
-[documentation of the underlying library pysaml2](https://github.com/rohe/pysaml2/blob/master/docs/howto/config.rst).
+[documentation of the underlying library pysaml2](configure).
 
 ### Providing `AuthnContextClassRef`
 
